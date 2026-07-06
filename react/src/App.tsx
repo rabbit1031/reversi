@@ -1,5 +1,7 @@
+import Cell from './components/Cell/Cell'
+
 function App() {
-  return <div>Reversi</div>
+  return <Cell stone="black" />
 }
 
 export default App

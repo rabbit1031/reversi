@@ -1,0 +1,22 @@
+.cell {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stone {
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+}
+
+.stone[data-color='black'] {
+  background-color: #222;
+}
+
+.stone[data-color='white'] {
+  background-color: #eee;
+}
